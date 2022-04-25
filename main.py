@@ -166,6 +166,7 @@ def getBeijinTime():
                print("此次修改结果不推送")
     else:
         print("当前不是主人设定的提交步数时间或者主人设置了0步数呢，本次不提交")
+        push_wx("test")
         return
 
 
