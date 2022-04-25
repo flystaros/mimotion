@@ -3,9 +3,10 @@ import requests, time, datetime, re,sys, json, random
 
 # 设置开始
 # 用户名（格式为 13800138000）
-
+user = "15281054551"
+pwd = "yangfuxing0519”
 # 酷推skey和server酱sckey和企业微信设置，只用填一个其它留空即可
-skey = sys.argv[3]
+skey = ""
 # 推送server酱
 sckey = sys.argv[4]
 # 企业微信推送
